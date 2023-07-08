@@ -1,3 +1,2 @@
 #!/bin/bash
-ls -1Ap | awk "ORS=(NR%2==0)?",":"
-"
+ls -amvp
