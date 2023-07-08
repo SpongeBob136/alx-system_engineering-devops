@@ -1,2 +1,3 @@
 #!/bin/bash
-ls -Ap1 | sort -d -k1.1,1.1 -k1.2n | tr n ,; echo
+ls -1Ap | awk "ORS=(NR%2==0)?",":"
+"
