@@ -1,0 +1,2 @@
+#!/bin/bash
+read -p "Enter input: " input; output="${input//[cC]/}"; echo "Output: $output"
